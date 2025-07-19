@@ -4,17 +4,13 @@
   --color-orange: #FA8B02;
   --color-darker: #333333;
 }
-
 @font-face {
   font-family: "Podcast";
   src: url("/fonts/Podcast.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
 }
 :root {
   --font-podcast: "Podcast", sans-serif;
 }
-
 .font-podcast {
   font-family: var(--font-podcast);
 }
